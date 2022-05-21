@@ -1,57 +1,77 @@
+
 div {
     max-width: 1600px;
     margin: auto;
 }
 nav a{
     text-align: center;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    font-family: 'Verdana', 'Geneva', 'Tahoma, sans-serif';
 }
+
 .button-box{
     text-align: center;
+    font-family: 'Verdana', 'Geneva', 'Tahoma, sans-serif';
 }
+
 main section{
     text-align: center;
+    font-family: 'Verdana', 'Geneva', 'Tahoma, sans-serif';
 }
+
 #background {
     height: 725px;
 }
 
 body {
     background-color: #396E94; 
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#E7C24F;
 }
 nav a:hover {
     background-color: #396E95;
-    color: #396E95;
+    color: #A43312;
 }
 .book, .join {
     background-color: #396E95;
     color: #E7C24F;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #E7C24F;
     color: #E7C24F;
 }
 #background {
-    background-color: #369E95
+    background-color: #369E95;
 }
 .msg {
-    background-color: #A43312
+    background-color: #A43312;
+    padding: 35px;
 }
 footer {
-    background-color: #E7C24F
+    background-color: #E7C24F;
+    padding: 25px 50px;
+    margin-top: 200;
 }
 nav a{
-    color: #E7C24F;
+    color: #369E95;
     text-decoration: none;
+    padding: 35px;
 }
 .home-title{
     color: #A43312;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #369E95;
@@ -59,8 +79,11 @@ h4{
 .msg h2 {
     color: #E7C24F;
 }
+
 .msg p{
     color: #A43312;
+    font-size: 8em;
+    padding-bottom: 15px;
 }
 footer h3{ 
     color: #369E95;
@@ -74,7 +97,27 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
+}
+
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px;
+}
+main section img {
+    box-sizing: border-box;
 }
